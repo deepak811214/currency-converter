@@ -1,0 +1,97 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 50px 100px;
+}
+
+.datalist {
+  position: relative;
+  margin-top: 6px;
+}
+
+.row {
+  border: 1px solid #aaa;
+  width: 150px;
+  height: 25px;
+  padding: 5px 0 0 2px;
+}
+
+input {
+  height: 25px;
+}
+
+.output {
+  padding: 5px 40px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.label {
+  color: #888;
+  font-size: 30px;
+}
+.label1 {
+  color: #888;
+  font-size: 18px;
+}
+
+.input-num {
+  position: relative;
+}
+
+.input-amount {
+  padding-left: 54px;
+  font-size: 17px;
+  max-width: 130px;
+}
+
+.curr-label {
+  position: absolute;
+  left: 0px;
+  top: 27px;
+  border-right: 1px solid;
+  padding: 6px;
+  width: 36px;
+  height: 17px;
+}
+
+input {
+  margin-right: 20px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.exchange {
+  border: 2px solid;
+  height: 22px;
+  min-width: 20px;
+  padding: 4px 6px 6px 6px;
+  transform: translate(0px, 25px);
+  margin-right: 20px;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.header {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.indicator {
+  position: absolute;
+  top: -5px;
+  right: 18px;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
